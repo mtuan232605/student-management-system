@@ -40,6 +40,22 @@ function getCourses(dept) {
     xhttp.open("GET", URL, true);
     xhttp.send();
 }
+//fake
+function getCourse(getCourseFee) {
+    var URL = `http://localhost:5000/api/get-course?courseName=${getCourseFee}`;
+
+    let xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            let response = JSON.parse(xhttp.responseText);
+            console.log(response);
+            document.getElementById('amountPaid').value = response.courseFee;
+        }
+    };
+
+    xhttp.open("GET", URL, true);
+    xhttp.send();
+}
 
 function getStudentInfo(studentRollNo) {
     const URL = `http://localhost:5000/api/getStudentInfo?studentRollNo=${studentRollNo}`;
@@ -50,13 +66,13 @@ function getStudentInfo(studentRollNo) {
             let res = JSON.parse(xhttp.responseText);
             let student = {
                 studentName: res.StudentName.FirstName + " " + res.StudentName.LastName,
-                class: res.Class,
+                Semester: res.Semester,
                 section: res.Section,
                 department: res.CourseName,
                 course: res.BranchName
             }
             document.getElementById('studentName').value = student.studentName;
-            document.getElementById('studentClass').value = student.class;
+            document.getElementById('studentSemester').value = student.Semester;
             document.getElementById('studentSection').value = student.section;
             document.getElementById('studentDept').value = student.department;
             document.getElementById('studentCourse').value = student.course;
@@ -66,3 +82,39 @@ function getStudentInfo(studentRollNo) {
     xhttp.open("GET", URL, true);
     xhttp.send();
 }
+
+// function getStudentInfo(studentRollNo) {
+//     const URL = `http://localhost:5000/api/getStudentInfo?studentRollNo=${studentRollNo}`;
+
+//     let xhttp = new XMLHttpRequest();
+//     xhttp.onreadystatechange = function () {
+//         if (this.readyState == 4 && this.status == 200) {
+//             let res = JSON.parse(xhttp.responseText);
+//             let student = {
+//                 studentName: res.StudentName.FirstName + " " + res.StudentName.LastName,
+//                 Semester: res.Semester,
+//                 section: res.Section,
+//                 department: res.CourseName,
+//                 course: res.BranchName
+//             }
+//             // fetch(`http://localhost:5000/api/get-course?courseName=${CourseName}`)
+//             // let course = JSON.parse(await Course.findOne({
+//             //         courseName: res.courseName
+//             //     }).select({
+//             //         courseFee: 1,
+//             //         _id: 0
+//             // }))
+//             // let courseFee = course.courseFee
+
+//             document.getElementById('studentName').value = student.studentName;
+//             document.getElementById('studentSemester').value = student.Semester;
+//             document.getElementById('studentSection').value = student.section;
+//             document.getElementById('studentDept').value = student.department;
+//             document.getElementById('studentCourse').value = student.course;
+//             document.getElementById('amountPaid').value = courseFee;
+//         }
+//     };
+
+//     xhttp.open("GET", URL, true);
+//     xhttp.send();
+// }

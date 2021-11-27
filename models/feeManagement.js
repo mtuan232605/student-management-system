@@ -17,9 +17,10 @@ const feeSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    class: {
+    // class: {
+    Semester:{
         type: String,
-            required: true
+        required: true
     },
     section: {
         type: String,
@@ -105,7 +106,7 @@ function validateFee(fee) {
     const schema = {
         studentRoll: Joi.string().required().label(' Roll Number '),
         studentName: Joi.string().required().label(' Student Name '),
-        studentClass: Joi.string().required().label(' Class '),
+        studentSemester: Joi.string().required().label(' Semester '),
         studentSection: Joi.string().required().label(' Section '),
         studentDept: Joi.string().required().label(' Course '),
         studentCourse: Joi.string().required().label(' Course '),

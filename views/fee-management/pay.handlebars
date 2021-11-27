@@ -35,9 +35,9 @@
         <p>Student details</p>
         <div class="form-row">
             <div class="form-group col-md-3">
-                <label for="">Class Roll Number ( <span>*</span> )</label>
+                <label for="">Student Roll Number ( <span>*</span> )</label>
                 <input type="text" name="studentRoll" id="studentRoll" value="{{body.studentRoll}}" onchange="getStudentInfo(this.value);"
-                    class="form-control" placeholder="Enter Class Roll Number">
+                    class="form-control" placeholder="Enter Student Roll Number">
             </div>
             <div class="form-group col-md-3">
                 <label for="">Name ( <span>*</span> )</label>
@@ -46,9 +46,9 @@
             </div>
 
             <div class="form-group col-md-3">
-                <label for="">Class ( <span>*</span> )</label>
-                <input type="text" name="studentClass" id="studentClass" value="{{body.studentClass}}" class="form-control"
-                    placeholder="Enter Class Studying In">
+                <label for="">Semester ( <span>*</span> )</label>
+                <input type="text" name="studentSemester" id="studentSemester" value="{{body.studentSemester}}" class="form-control"
+                    placeholder="Enter Semester Studying In">
             </div>
 
             <div class="form-group col-md-3">
@@ -72,7 +72,7 @@
             <div class="form-group col-md-6">
                 <label for="">Course ( <span>*</span> )</label>
                 <input type="text" name="studentCourse" id="studentCourse" value="{{body.studentCourse}}" class="form-control"
-                    placeholder="Enter Course">
+                    placeholder="Enter Course" oninput="getCourse(this.value);">
             </div>
         </div>
 
@@ -83,7 +83,7 @@
         <div class="form-row">
             <div class="form-group col-md-3">
                 <label for="">Paid Amount ( <span>*</span> )</label>
-                <input type="text" name="amountPaid" value="{{body.amountPaid}}" class="form-control" placeholder="Enter amount paid">
+                <input type="text" name="amountPaid" id="amountPaid" value="{{body.amountPaid}}" class="form-control" placeholder="Enter amount paid" ></input>
             </div>
             <div class="form-group col-md-3">
                 <label for="">Due Amount ( <span>*</span> )</label>

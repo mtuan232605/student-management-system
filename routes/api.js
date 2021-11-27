@@ -18,7 +18,8 @@ const {
 
 router.get('/getStudentInfo', async (req, res) => {
     const studentInfo = await Student.findOne({
-        'StudentId.ClassRollNo': req.query.studentRollNo
+        // 'StudentId.ClassRollNo': req.query.studentRollNo
+        'StudentId._StudentId': req.query.studentRollNo
     });
 
     if (studentInfo) {
@@ -42,7 +43,7 @@ router.get('/get-department', async (req, res) => {
 });
 
 router.get('/get-courses', async (req, res) => {
-    const courses = await Course.find({
+    const courses = await Course.findOne({
         departmentName: req.query.deptName
     }).select({
         courseName: 1,
@@ -51,6 +52,21 @@ router.get('/get-courses', async (req, res) => {
 
     if (courses) {
         res.send(courses);
+    } else {
+        res.status(400).send('Resourse not found...');
+    }
+});
+//fake
+router.get('/get-course', async (req, res) => {
+    const getCourseFee = await Course.findOne({
+        'courseName': req.query.courseName
+    }).select({
+        courseFee: 1,
+        _id: 0
+    });
+
+    if (getCourseFee) {
+        res.send(getCourseFee);
     } else {
         res.status(400).send('Resourse not found...');
     }

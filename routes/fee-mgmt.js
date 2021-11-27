@@ -68,7 +68,7 @@ router.post('/pay', async (req, res) => {
         const payment = new StudentFee({
             studentRoll: req.body.studentRoll,
             studentName: req.body.studentName,
-            class: req.body.studentClass,
+            Semester: req.body.studentSemester,
             section: req.body.studentSection,
             department: req.body.studentDept,
             course: req.body.studentCourse,

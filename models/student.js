@@ -50,7 +50,7 @@ const studentSchema = new mongoose.Schema({
     Religion: {
         type: String,
         required: true,
-        enum: ['None','Muslim', 'Hindu', 'Sikh', 'Christian', 'Jain', 'Others']
+        enum: ['None','Buddhism', 'Christianism', 'Others']
     },
     FathersName: {
         type: String,
