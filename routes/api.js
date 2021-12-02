@@ -43,7 +43,7 @@ router.get('/get-department', async (req, res) => {
 });
 
 router.get('/get-courses', async (req, res) => {
-    const courses = await Course.findOne({
+    const courses = await Course.find({
         departmentName: req.query.deptName
     }).select({
         courseName: 1,
