@@ -1,0 +1,877 @@
+[{
+  "_id": {
+    "$oid": "61a25a7fbd0ff612b0d86529"
+  },
+  "departmentName": "KHOA Y",
+  "courseName": "K24 BÁC SĨ ĐA KHOA",
+  "courseDuration": 7,
+  "startDate": "June 6, 2018",
+  "endDate": "May 14, 2025",
+  "courseFee": 1100,
+  "intake": 2000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a25adebd0ff612b0d8652a"
+  },
+  "departmentName": "KHOA Y",
+  "courseName": "K24 BÁC SĨ RĂNG HÀM MẶT",
+  "courseDuration": 6,
+  "startDate": "June 14th 2018, 12:00:00 am",
+  "endDate": "May 9th 2024, 12:00:00 am",
+  "courseFee": 1000,
+  "intake": 1500,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a25babbd0ff612b0d8652b"
+  },
+  "departmentName": "KHOA Y",
+  "courseName": "K24 QUẢN LÝ BỆNH VIỆN",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "May 10th 2022, 12:00:00 am",
+  "courseFee": 900,
+  "intake": 2500,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a25c62bd0ff612b0d8652c"
+  },
+  "departmentName": "KHOA DƯỢC",
+  "courseName": "K24 DƯỢC ( DƯỢC SĨ ĐẠI HỌC)",
+  "courseDuration": 5,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "May 1st 2023, 12:00:00 am",
+  "courseFee": 900,
+  "intake": 3000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a25d19bd0ff612b0d8652d"
+  },
+  "departmentName": "KHOA DƯỢC",
+  "courseName": "K24 CÔNG NGHỆ SINH HỌC",
+  "courseDuration": 5,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "May 17th 2023, 12:00:00 am",
+  "courseFee": 800,
+  "intake": 2500,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a25d56bd0ff612b0d8652e"
+  },
+  "departmentName": "KHOA ĐIỀU DƯỠNG",
+  "courseName": "K24 ĐIỀU DƯỠNG ĐA KHOA",
+  "courseDuration": 4,
+  "startDate": "May 25th 2018, 12:00:00 am",
+  "endDate": "May 4th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 4000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a25d9fbd0ff612b0d8652f"
+  },
+  "departmentName": "KHOA CÔNG NGHỆ THÔNG TIN",
+  "courseName": "K24 CÔNG NGHỆ PHẦN MỀM",
+  "courseDuration": 4,
+  "startDate": "May 15th 2021, 12:00:00 am",
+  "endDate": "May 25th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 3000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a25dcbbd0ff612b0d86530"
+  },
+  "departmentName": "KHOA CÔNG NGHỆ THÔNG TIN",
+  "courseName": "K24 THIẾT KẾ GAME&MULTIMEDIA",
+  "courseDuration": 4,
+  "startDate": "June 15th 2018, 12:00:00 am",
+  "endDate": "June 20th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1500,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a25dfdbd0ff612b0d86531"
+  },
+  "departmentName": "KHOA KHOA HỌC MÁY TÍNH",
+  "courseName": "K24 BIG DATA& MACHINE LEARNING",
+  "courseDuration": 4,
+  "startDate": "May 15th 2018, 12:00:00 am",
+  "endDate": "May 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1500,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a25e64bd0ff612b0d86532"
+  },
+  "departmentName": "KHOA KHOA HỌC MÁY TÍNH",
+  "courseName": "K24 TRÍ TUỆ NHÂN TẠO",
+  "courseDuration": 4,
+  "startDate": "May 15th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1500,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a25e80bd0ff612b0d86533"
+  },
+  "departmentName": "KHOA KHOA HỌC MÁY TÍNH",
+  "courseName": "K24 KHOA HỌC MÁY TÍNH",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1500,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a25e9fbd0ff612b0d86534"
+  },
+  "departmentName": "KHOA KHOA HỌC MÁY TÍNH",
+  "courseName": "K24 KHOA HỌC DỮ LIỆU",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1500,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a25ebebd0ff612b0d86535"
+  },
+  "departmentName": "KHOA KỸ THUẬT MẠNG MÁY TÍNH & TRUYỀN THÔNG",
+  "courseName": "K24 AN TOÀN THÔNG TIN",
+  "courseDuration": 4,
+  "startDate": "May 15th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1500,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a25ff6bd0ff612b0d86536"
+  },
+  "departmentName": "KHOA KỸ THUẬT MẠNG MÁY TÍNH & TRUYỀN THÔNG",
+  "courseName": "K24 MẠNG MÁY TÍNH VÀ TRUYỀN DỮ LIỆU",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1500,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a26073bd0ff612b0d86538"
+  },
+  "departmentName": "KHOA LUẬT",
+  "courseName": "K24 LUẬT KINH TẾ",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1500,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a2609ebd0ff612b0d86539"
+  },
+  "departmentName": "KHOA LUẬT",
+  "courseName": "K24 LUẬT HỌC",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1500,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a260c4bd0ff612b0d8653a"
+  },
+  "departmentName": "KHOA LUẬT",
+  "courseName": "K24 LUẬT KINH DOANH (HP)",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1500,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a2610ebd0ff612b0d8653b"
+  },
+  "departmentName": "KHOA QUẢN TRỊ KINH DOANH",
+  "courseName": "K24 QUẢN TRỊ MARKETING",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 700,
+  "intake": 2000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a2612dbd0ff612b0d8653c"
+  },
+  "departmentName": "KHOA QUẢN TRỊ KINH DOANH",
+  "courseName": "K24 QUẢN TRỊ KINH DOANH TỔNG HỢP",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 700,
+  "intake": 2000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a26151bd0ff612b0d8653d"
+  },
+  "departmentName": "KHOA QUẢN TRỊ KINH DOANH",
+  "courseName": "K24 NGOẠI THƯƠNG (QUẢN TRỊ KINH DOANH QUỐC TẾ)",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "March 24th 2022, 12:00:00 am",
+  "courseFee": 800,
+  "intake": 2000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a2616ebd0ff612b0d8653e"
+  },
+  "departmentName": "KHOA QUẢN TRỊ KINH DOANH",
+  "courseName": "K24 TÀI CHÍNH DOANH NGHIỆP",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "March 24th 2022, 12:00:00 am",
+  "courseFee": 700,
+  "intake": 1500,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a26198bd0ff612b0d8653f"
+  },
+  "departmentName": "KHOA QUẢN TRỊ KINH DOANH",
+  "courseName": "K24 NGÂN HÀNG",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 800,
+  "intake": 1500,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a261bcbd0ff612b0d86540"
+  },
+  "departmentName": "KHOA QUẢN TRỊ KINH DOANH",
+  "courseName": "K24 QUẢN TRỊ HÀNH CHÍNH VĂN PHÒNG",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "June 5th 2022, 12:00:00 am",
+  "courseFee": 700,
+  "intake": 1500,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a261d8bd0ff612b0d86541"
+  },
+  "departmentName": "KHOA XÃ HỘI NHÂN VĂN",
+  "courseName": "K24 QUẢN TRỊ NHÂN LỰC",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1500,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a261efbd0ff612b0d86542"
+  },
+  "departmentName": "KHOA QUẢN TRỊ KINH DOANH",
+  "courseName": "K24 LOGISTICS VÀ QUẢN LÝ CHUỖI CUNG ỨNG",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1500,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a26213bd0ff612b0d86543"
+  },
+  "departmentName": "KHOA QUẢN TRỊ KINH DOANH",
+  "courseName": "K24 QUẢN TRỊ KINH DOANH BẤT ĐỘNG SẢN",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a2622dbd0ff612b0d86544"
+  },
+  "departmentName": "KHOA QUẢN TRỊ KINH DOANH",
+  "courseName": "K24 KINH DOANH SỐ",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1500,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a2624fbd0ff612b0d86545"
+  },
+  "departmentName": "KHOA QUẢN TRỊ KINH DOANH",
+  "courseName": "K24  QUẢN TRỊ TÀI CHÍNH (HP)",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1500,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a26268bd0ff612b0d86546"
+  },
+  "departmentName": "KHOA QUẢN TRỊ KINH DOANH",
+  "courseName": "K24 QUẢN TRỊ MARKETING VÀ CHIẾN LƯỢC (HP)",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a26285bd0ff612b0d86547"
+  },
+  "departmentName": "KHOA QUẢN TRỊ KINH DOANH",
+  "courseName": "K24 QUẢN TRỊ DOANH NGHIỆP (HP)",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "March 24th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1500,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a262a3bd0ff612b0d86548"
+  },
+  "departmentName": "KHOA KẾ TOÁN",
+  "courseName": "K24 KẾ TOÁN KIỂM TOÁN  KẾ TOÁN DOANH NGHIỆP",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1500,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a262c1bd0ff612b0d86549"
+  },
+  "departmentName": "KHOA KẾ TOÁN",
+  "courseName": "K24 THUẾ VÀ TƯ VẤN THUẾ",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "March 24th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a262debd0ff612b0d8654a"
+  },
+  "departmentName": "KHOA KẾ TOÁN",
+  "courseName": "K24 KẾ TOÁN NHÀ NƯỚC",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a262fabd0ff612b0d8654b"
+  },
+  "departmentName": "KHOA KẾ TOÁN",
+  "courseName": "K24 KẾ TOÁN QUẢN TRỊ (HP)",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 800,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a26319bd0ff612b0d8654c"
+  },
+  "departmentName": "KHOA TIẾNG ANH",
+  "courseName": "K24 TIẾNG ANH BIÊN - PHIÊN DỊCH",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a26339bd0ff612b0d8654d"
+  },
+  "departmentName": "KHOA TIẾNG ANH",
+  "courseName": "K24 TIẾNG ANH DU LỊCH",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 500,
+  "intake": 1000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a26353bd0ff612b0d8654e"
+  },
+  "departmentName": "KHOA TIẾNG TRUNG",
+  "courseName": "K24 TIẾNG TRUNG BIÊN - PHIÊN DỊCH",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a26371bd0ff612b0d8654f"
+  },
+  "departmentName": "KHOA TIẾNG TRUNG",
+  "courseName": "K24 TIẾNG TRUNG DU LỊCH",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a2638abd0ff612b0d86550"
+  },
+  "departmentName": "KHOA TIẾNG NHẬT",
+  "courseName": "K24 TIẾNG NHẬT BIÊN - PHIÊN DỊCH",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a263a2bd0ff612b0d86551"
+  },
+  "departmentName": "KHOA TIẾNG HÀN",
+  "courseName": "K24 TIẾNG HÀN DU LỊCH",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a263c1bd0ff612b0d86552"
+  },
+  "departmentName": "KHOA TIẾNG HÀN",
+  "courseName": "K24 TIẾNG HÀN BIÊN - PHIÊN DỊCH",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a263dfbd0ff612b0d86553"
+  },
+  "departmentName": "KHOA TIẾNG NHẬT",
+  "courseName": "K24 TIẾNG NHẬT BIÊN - PHIÊN DỊCH",
+  "courseDuration": 4,
+  "startDate": "May 15th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a263fcbd0ff612b0d86554"
+  },
+  "departmentName": "KHOA TIẾNG NHẬT",
+  "courseName": "K24 TIẾNG NHẬT DU LỊCH",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a26433bd0ff612b0d86555"
+  },
+  "departmentName": "VIỆN ĐÀO TẠO QUỐC TẾ",
+  "courseName": "K24 CÔNG NGHỆ PHẦN MỀM (CHUẨN CMU)",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "March 24th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1500,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a26455bd0ff612b0d86556"
+  },
+  "departmentName": "VIỆN ĐÀO TẠO QUỐC TẾ",
+  "courseName": "K24 HỆ THỐNG THÔNG TIN QUẢN LÝ (KINH TẾ - CHUẨN CMU)",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 100,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a2646dbd0ff612b0d86557"
+  },
+  "departmentName": "VIỆN ĐÀO TẠO QUỐC TẾ",
+  "courseName": "K24 QUẢN TRỊ KINH DOANH (CHUẨN PSU)",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a2648dbd0ff612b0d86558"
+  },
+  "departmentName": "VIỆN ĐÀO TẠO QUỐC TẾ",
+  "courseName": "K24 KẾ TOÁN (& KIỂM TOÁN - CHUẨN PSU)",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a264a5bd0ff612b0d86559"
+  },
+  "departmentName": "VIỆN ĐÀO TẠO QUỐC TẾ",
+  "courseName": "K24 TÀI CHÍNH – NGÂN HÀNG (CHUẨN PSU)",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1500,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a264d1bd0ff612b0d8655a"
+  },
+  "departmentName": "VIỆN ĐÀO TẠO QUỐC TẾ",
+  "courseName": "K24 XÂY DỰNG DÂN DỤNG & CÔNG NGHIỆP (CHUẨN CSU)",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "March 24th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 800,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a264f0bd0ff612b0d8655b"
+  },
+  "departmentName": "VIỆN ĐÀO TẠO QUỐC TẾ",
+  "courseName": "K24 KIẾN TRÚC (CHUẨN CSU)",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 500,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a265f1bd0ff612b0d8655c"
+  },
+  "departmentName": "VIỆN NGHIÊN CỨU ĐÀO TẠO & NGHIÊN CỨU DU LỊCH",
+  "courseName": "K24 QUẢN TRỊ DU LỊCH & KHÁCH SẠN",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 700,
+  "intake": 5000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a2660abd0ff612b0d8655d"
+  },
+  "departmentName": "VIỆN NGHIÊN CỨU ĐÀO TẠO & NGHIÊN CỨU DU LỊCH",
+  "courseName": "K24 QUẢN TRỊ DU LỊCH & LỮ HÀNH",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 700,
+  "intake": 4000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a26621bd0ff612b0d8655e"
+  },
+  "departmentName": "VIỆN NGHIÊN CỨU ĐÀO TẠO & NGHIÊN CỨU DU LỊCH",
+  "courseName": "K24 QUẢN TRỊ DU LỊCH & KHÁCH SẠN CHUẨN PSU",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 700,
+  "intake": 4000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a26635bd0ff612b0d8655f"
+  },
+  "departmentName": "VIỆN NGHIÊN CỨU ĐÀO TẠO & NGHIÊN CỨU DU LỊCH",
+  "courseName": "K24 QUẢN TRỊ DU LỊCH & LỮ HÀNH CHUẨN PSU",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "March 24th 2022, 12:00:00 am",
+  "courseFee": 700,
+  "intake": 4000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a2664cbd0ff612b0d86560"
+  },
+  "departmentName": "VIỆN NGHIÊN CỨU ĐÀO TẠO & NGHIÊN CỨU DU LỊCH",
+  "courseName": "K24 QUẢN TRỊ DU LỊCH & NHÀ HÀNG CHUẨN PSU",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "March 24th 2022, 12:00:00 am",
+  "courseFee": 700,
+  "intake": 4000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a26667bd0ff612b0d86561"
+  },
+  "departmentName": "VIỆN NGHIÊN CỨU ĐÀO TẠO & NGHIÊN CỨU DU LỊCH",
+  "courseName": "K24 QUẢN TRỊ SỰ KIỆN",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1500,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a26680bd0ff612b0d86562"
+  },
+  "departmentName": "VIỆN NGHIÊN CỨU ĐÀO TẠO & NGHIÊN CỨU DU LỊCH",
+  "courseName": "K24 DU LỊCH THÔNG MINH",
+  "courseDuration": 4,
+  "startDate": "May 15th 2018, 12:00:00 am",
+  "endDate": "March 24th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a26698bd0ff612b0d86563"
+  },
+  "departmentName": "VIỆN NGHIÊN CỨU ĐÀO TẠO & NGHIÊN CỨU DU LỊCH",
+  "courseName": "K24 HƯỚNG DẪN DU LỊCH QUỐC TẾ (TIẾNG ANH)",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 700,
+  "intake": 1000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a266b1bd0ff612b0d86564"
+  },
+  "departmentName": "VIỆN NGHIÊN CỨU ĐÀO TẠO & NGHIÊN CỨU DU LỊCH",
+  "courseName": "K24 HƯỚNG DẪN DU LỊCH QUỐC TẾ (TIẾNG TRUNG)",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a266cdbd0ff612b0d86565"
+  },
+  "departmentName": "VIỆN NGHIÊN CỨU ĐÀO TẠO & NGHIÊN CỨU DU LỊCH",
+  "courseName": "K24 HƯỚNG DẪN DU LỊCH QUỐC TẾ (TIẾNG HÀN)",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "March 24th 2022, 12:00:00 am",
+  "courseFee": 700,
+  "intake": 1000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a266e2bd0ff612b0d86566"
+  },
+  "departmentName": "KHOA XÃ HỘI NHÂN VĂN",
+  "courseName": "K24 VĂN BÁO CHÍ",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a266fdbd0ff612b0d86567"
+  },
+  "departmentName": "KHOA XÃ HỘI NHÂN VĂN",
+  "courseName": "K24 VĂN HÓA DU LỊCH",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "March 24th 2022, 12:00:00 am",
+  "courseFee": 700,
+  "intake": 1000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a26711bd0ff612b0d86568"
+  },
+  "departmentName": "KHOA XÃ HỘI NHÂN VĂN",
+  "courseName": "K24 QUAN HỆ QUỐC TẾ",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "March 24th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a26727bd0ff612b0d86569"
+  },
+  "departmentName": "KHOA XÃ HỘI NHÂN VĂN",
+  "courseName": "K24 TRUYỀN THÔNG ĐA PHƯƠNG TIỆN",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a2673cbd0ff612b0d8656a"
+  },
+  "departmentName": "KHOA XÃ HỘI NHÂN VĂN",
+  "courseName": "K24 VĂN HÓA DU LỊCH VIỆT NAM HP",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a26780bd0ff612b0d8656b"
+  },
+  "departmentName": "KHOA ĐIỆN-ĐIỆN TỬ",
+  "courseName": "K24 ĐIỆN TỰ ĐỘNG",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a26798bd0ff612b0d8656c"
+  },
+  "departmentName": "KHOA ĐIỆN-ĐIỆN TỬ",
+  "courseName": "K24 ĐIỆN TỬ VIỄN THÔNG",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "March 24th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a267b3bd0ff612b0d8656d"
+  },
+  "departmentName": "KHOA ĐIỆN-ĐIỆN TỬ",
+  "courseName": "K24 ĐIỆN - ĐIỆN TỬ CHUẨN PNU",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a267d3bd0ff612b0d8656e"
+  },
+  "departmentName": "KHOA ĐIỆN-ĐIỆN TỬ",
+  "courseName": "K24 KỸ THUẬT ĐIỀU KHIỂN VÀ TỰ ĐỘNG HÓA",
+  "courseDuration": 4,
+  "startDate": "May 15th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a26811bd0ff612b0d8656f"
+  },
+  "departmentName": "KHOA CƠ KHÍ",
+  "courseName": "K24 CÔNG NGHỆ KỸ THUẬT OTO",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a2683abd0ff612b0d86570"
+  },
+  "departmentName": "KHOA CƠ KHÍ",
+  "courseName": "K24 ĐIỆN OTO",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "February 15th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a2685bbd0ff612b0d86571"
+  },
+  "departmentName": "KHOA CƠ KHÍ",
+  "courseName": "K24 CƠ ĐIỆN TỬ ( CHUẨN PNU )",
+  "courseDuration": 4,
+  "startDate": "June 6th 2018, 12:00:00 am",
+  "endDate": "March 24th 2022, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 1000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61a8b44994a8132ff4ca28aa"
+  },
+  "departmentName": "13123123",
+  "courseName": "K24 AN TOÀN THÔNG TIN",
+  "courseDuration": 4,
+  "startDate": "December 15th 2021, 12:00:00 am",
+  "endDate": "December 20th 2021, 12:00:00 am",
+  "courseFee": 600,
+  "intake": 2000,
+  "__v": 0
+}]

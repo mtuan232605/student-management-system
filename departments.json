@@ -1,0 +1,96 @@
+[{
+  "_id": {
+    "$oid": "6193bda1bdc7fec05e868482"
+  },
+  "dname": "KHOA ĐIỆN-ĐIỆN TỬ"
+},{
+  "_id": {
+    "$oid": "6193bdb0bdc7fec05e868483"
+  },
+  "dname": "KHOA CƠ KHÍ"
+},{
+  "_id": {
+    "$oid": "61a25685908898af2e375266"
+  },
+  "dname": "KHOA Y"
+},{
+  "_id": {
+    "$oid": "61a256d5908898af2e375267"
+  },
+  "dname": "KHOA DƯỢC"
+},{
+  "_id": {
+    "$oid": "61a256e1908898af2e375268"
+  },
+  "dname": "KHOA ĐIỀU DƯỠNG"
+},{
+  "_id": {
+    "$oid": "61a257af908898af2e375269"
+  },
+  "dname": "KHOA CÔNG NGHỆ THÔNG TIN"
+},{
+  "_id": {
+    "$oid": "61a258bd908898af2e37526a"
+  },
+  "dname": "KHOA KHOA HỌC MÁY TÍNH"
+},{
+  "_id": {
+    "$oid": "61a258cb908898af2e37526b"
+  },
+  "dname": "KHOA KỸ THUẬT MẠNG MÁY TÍNH & TRUYỀN THÔNG"
+},{
+  "_id": {
+    "$oid": "61a258e5908898af2e37526c"
+  },
+  "dname": "KHOA LUẬT"
+},{
+  "_id": {
+    "$oid": "61a258f8908898af2e37526d"
+  },
+  "dname": "KHOA KẾ TOÁN"
+},{
+  "_id": {
+    "$oid": "61a25909908898af2e37526e"
+  },
+  "dname": "KHOA TIẾNG ANH"
+},{
+  "_id": {
+    "$oid": "61a2592b908898af2e37526f"
+  },
+  "dname": "KHOA TIẾNG TRUNG"
+},{
+  "_id": {
+    "$oid": "61a2594b908898af2e375270"
+  },
+  "dname": "KHOA TIẾNG NHẬT"
+},{
+  "_id": {
+    "$oid": "61a2595a908898af2e375271"
+  },
+  "dname": "KHOA TIẾNG HÀN"
+},{
+  "_id": {
+    "$oid": "61a2596f908898af2e375272"
+  },
+  "dname": "VIỆN ĐÀO TẠO QUỐC TẾ"
+},{
+  "_id": {
+    "$oid": "61a2597d908898af2e375273"
+  },
+  "dname": "VIỆN NGHIÊN CỨU ĐÀO TẠO & NGHIÊN CỨU DU LỊCH"
+},{
+  "_id": {
+    "$oid": "61a2598a908898af2e375274"
+  },
+  "dname": "KHOA XÃ HỘI NHÂN VĂN"
+},{
+  "_id": {
+    "$oid": "61a260e5908898af2e375275"
+  },
+  "dname": "KHOA QUẢN TRỊ KINH DOANH"
+},{
+  "_id": {
+    "$oid": "61a8b3d5e7d03190727a1bd3"
+  },
+  "dname": "13123123"
+}]
