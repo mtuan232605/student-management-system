@@ -35,9 +35,9 @@
         <p>Student details</p>
         <div class="form-row">
             <div class="form-group col-md-3">
-                <label for="">Student Roll Number ( <span>*</span> )</label>
+                <label for="">Student ID ( <span>*</span> )</label>
                 <input type="text" name="studentRoll" id="studentRoll" value="{{body.studentRoll}}" onchange="getStudentInfo(this.value);"
-                    class="form-control" placeholder="Enter Student Roll Number">
+                    class="form-control" placeholder="Enter Student ID">
             </div>
             <div class="form-group col-md-3">
                 <label for="">Name ( <span>*</span> )</label>
@@ -82,24 +82,31 @@
         <p>Enter amount and due date.</p>
         <div class="form-row">
             <div class="form-group col-md-3">
-                <label for="">Paid Amount ( <span>*</span> )</label>
-                <input type="text" name="amountPaid" id="amountPaid" value="{{body.amountPaid}}" class="form-control" placeholder="Enter amount paid" ></input>
+                <label for="">Tuition Fee( <span>*</span> )</label>
+                <input type="text" name="tuitionFee" id="tuitionFee" value="{{body.tuition}}" class="form-control" placeholder="Enter Tuition Fee" ></input>
             </div>
             <div class="form-group col-md-3">
-                <label for="">Due Amount ( <span>*</span> )</label>
-                <input type="text" name="amountDue" value="{{body.amountDue}}" class="form-control" placeholder="Enter amount due">
-                <p class="text-muted mt-2">Enter 0 if no dues.</p>
+                <label for="">Tuition Discount ( <span>*</span> )</label>
+                <input type="text" name="tuitionDiscount" id="tuitionDiscount" value="{{body.tuitionDiscount}}" class="form-control" placeholder="Enter Tuition Discount" oninput="getTotalFee()">
+                {{!-- <p class="text-muted mt-2">Enter 0 if no dues.</p> --}}
             </div>
             <div class="form-group col-md-3">
-                <label for="">Due date</label>
-                <input type="text" id="datepicker" name="dueDate" value="{{body.dueDate}}" class="form-control"
-                    placeholder="Enter amount paid">
+                <label for="">Date of payment</label>
+                <input type="text" id="datepicker" name="dateOfPayment" value="{{body.dateOfPayment}}" class="form-control"
+                    placeholder="Enter Date of payment">
             </div>
             <div class="form-group col-md-3">
-                <label for="">Late Submission Fine ( &#8377 Per Day )</label>
-                <input type="text" name="lateFine" value="{{body.lateFine}}" class="form-control" placeholder="Enter late submission fine">
+                <label for="">Total Fee </label>
+                <input type="text" name="totalFee" id="totalFee" value="{{body.totalFee}}" class="form-control" placeholder="Enter Total Fee">
             </div>
         </div>
+        <script>
+            function getTotalFee() {
+                var tuitionFee = document.getElementById("tuitionFee").value*1;
+                var tuitionDiscount = document.getElementById("tuitionDiscount").value*1;
+                document.getElementById("totalFee").value = tuitionFee-((tuitionFee*tuitionDiscount)/100) ;
+            }
+        </script>
 
         <button type="submit" class="btn btn-default btn-lg btn-block">Submit Fee</button>
     </form>

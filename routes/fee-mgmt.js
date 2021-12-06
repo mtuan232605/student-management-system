@@ -72,10 +72,10 @@ router.post('/pay', async (req, res) => {
             section: req.body.studentSection,
             department: req.body.studentDept,
             course: req.body.studentCourse,
-            amountPaid: req.body.amountPaid,
-            amountDue: req.body.amountDue || 0,
-            dueDate: req.body.dueDate,
-            lateSubmissionFine: req.body.lateFine || 0,
+            tuition: req.body.tuition,
+            tuitionDiscount: req.body.tuitionDiscount || 0,
+            dateOfPayment: req.body.dateOfPayment,
+            totalFee: req.body.totalFee ,
             paymentId: req.body.paymentId
         });
 

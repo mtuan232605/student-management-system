@@ -87,7 +87,7 @@
     "$oid": "61a25dcbbd0ff612b0d86530"
   },
   "departmentName": "KHOA CÔNG NGHỆ THÔNG TIN",
-  "courseName": "K24 THIẾT KẾ GAME&MULTIMEDIA",
+  "courseName": "K24 THIẾT KẾ GAME MULTIMEDIA",
   "courseDuration": 4,
   "startDate": "June 15th 2018, 12:00:00 am",
   "endDate": "June 20th 2022, 12:00:00 am",
@@ -99,7 +99,7 @@
     "$oid": "61a25dfdbd0ff612b0d86531"
   },
   "departmentName": "KHOA KHOA HỌC MÁY TÍNH",
-  "courseName": "K24 BIG DATA& MACHINE LEARNING",
+  "courseName": "K24 BIG DATA  MACHINE LEARNING",
   "courseDuration": 4,
   "startDate": "May 15th 2018, 12:00:00 am",
   "endDate": "May 15th 2022, 12:00:00 am",
@@ -146,7 +146,7 @@
   "_id": {
     "$oid": "61a25ebebd0ff612b0d86535"
   },
-  "departmentName": "KHOA KỸ THUẬT MẠNG MÁY TÍNH & TRUYỀN THÔNG",
+  "departmentName": "KHOA KỸ THUẬT MẠNG MÁY TÍNH   TRUYỀN THÔNG",
   "courseName": "K24 AN TOÀN THÔNG TIN",
   "courseDuration": 4,
   "startDate": "May 15th 2018, 12:00:00 am",
@@ -158,7 +158,7 @@
   "_id": {
     "$oid": "61a25ff6bd0ff612b0d86536"
   },
-  "departmentName": "KHOA KỸ THUẬT MẠNG MÁY TÍNH & TRUYỀN THÔNG",
+  "departmentName": "KHOA KỸ THUẬT MẠNG MÁY TÍNH   TRUYỀN THÔNG",
   "courseName": "K24 MẠNG MÁY TÍNH VÀ TRUYỀN DỮ LIỆU",
   "courseDuration": 4,
   "startDate": "June 6th 2018, 12:00:00 am",
@@ -555,7 +555,7 @@
     "$oid": "61a2648dbd0ff612b0d86558"
   },
   "departmentName": "VIỆN ĐÀO TẠO QUỐC TẾ",
-  "courseName": "K24 KẾ TOÁN (& KIỂM TOÁN - CHUẨN PSU)",
+  "courseName": "K24 KẾ TOÁN (  KIỂM TOÁN - CHUẨN PSU)",
   "courseDuration": 4,
   "startDate": "June 6th 2018, 12:00:00 am",
   "endDate": "February 15th 2022, 12:00:00 am",
@@ -579,7 +579,7 @@
     "$oid": "61a264d1bd0ff612b0d8655a"
   },
   "departmentName": "VIỆN ĐÀO TẠO QUỐC TẾ",
-  "courseName": "K24 XÂY DỰNG DÂN DỤNG & CÔNG NGHIỆP (CHUẨN CSU)",
+  "courseName": "K24 XÂY DỰNG DÂN DỤNG   CÔNG NGHIỆP (CHUẨN CSU)",
   "courseDuration": 4,
   "startDate": "June 6th 2018, 12:00:00 am",
   "endDate": "March 24th 2022, 12:00:00 am",
@@ -602,8 +602,8 @@
   "_id": {
     "$oid": "61a265f1bd0ff612b0d8655c"
   },
-  "departmentName": "VIỆN NGHIÊN CỨU ĐÀO TẠO & NGHIÊN CỨU DU LỊCH",
-  "courseName": "K24 QUẢN TRỊ DU LỊCH & KHÁCH SẠN",
+  "departmentName": "VIỆN NGHIÊN CỨU ĐÀO TẠO   NGHIÊN CỨU DU LỊCH",
+  "courseName": "K24 QUẢN TRỊ DU LỊCH   KHÁCH SẠN",
   "courseDuration": 4,
   "startDate": "June 6th 2018, 12:00:00 am",
   "endDate": "February 15th 2022, 12:00:00 am",
@@ -614,8 +614,8 @@
   "_id": {
     "$oid": "61a2660abd0ff612b0d8655d"
   },
-  "departmentName": "VIỆN NGHIÊN CỨU ĐÀO TẠO & NGHIÊN CỨU DU LỊCH",
-  "courseName": "K24 QUẢN TRỊ DU LỊCH & LỮ HÀNH",
+  "departmentName": "VIỆN NGHIÊN CỨU ĐÀO TẠO   NGHIÊN CỨU DU LỊCH",
+  "courseName": "K24 QUẢN TRỊ DU LỊCH   LỮ HÀNH",
   "courseDuration": 4,
   "startDate": "June 6th 2018, 12:00:00 am",
   "endDate": "February 15th 2022, 12:00:00 am",
@@ -626,8 +626,8 @@
   "_id": {
     "$oid": "61a26621bd0ff612b0d8655e"
   },
-  "departmentName": "VIỆN NGHIÊN CỨU ĐÀO TẠO & NGHIÊN CỨU DU LỊCH",
-  "courseName": "K24 QUẢN TRỊ DU LỊCH & KHÁCH SẠN CHUẨN PSU",
+  "departmentName": "VIỆN NGHIÊN CỨU ĐÀO TẠO   NGHIÊN CỨU DU LỊCH",
+  "courseName": "K24 QUẢN TRỊ DU LỊCH   KHÁCH SẠN CHUẨN PSU",
   "courseDuration": 4,
   "startDate": "June 6th 2018, 12:00:00 am",
   "endDate": "February 15th 2022, 12:00:00 am",
@@ -638,8 +638,8 @@
   "_id": {
     "$oid": "61a26635bd0ff612b0d8655f"
   },
-  "departmentName": "VIỆN NGHIÊN CỨU ĐÀO TẠO & NGHIÊN CỨU DU LỊCH",
-  "courseName": "K24 QUẢN TRỊ DU LỊCH & LỮ HÀNH CHUẨN PSU",
+  "departmentName": "VIỆN NGHIÊN CỨU ĐÀO TẠO   NGHIÊN CỨU DU LỊCH",
+  "courseName": "K24 QUẢN TRỊ DU LỊCH   LỮ HÀNH CHUẨN PSU",
   "courseDuration": 4,
   "startDate": "June 6th 2018, 12:00:00 am",
   "endDate": "March 24th 2022, 12:00:00 am",
@@ -650,8 +650,8 @@
   "_id": {
     "$oid": "61a2664cbd0ff612b0d86560"
   },
-  "departmentName": "VIỆN NGHIÊN CỨU ĐÀO TẠO & NGHIÊN CỨU DU LỊCH",
-  "courseName": "K24 QUẢN TRỊ DU LỊCH & NHÀ HÀNG CHUẨN PSU",
+  "departmentName": "VIỆN NGHIÊN CỨU ĐÀO TẠO   NGHIÊN CỨU DU LỊCH",
+  "courseName": "K24 QUẢN TRỊ DU LỊCH   NHÀ HÀNG CHUẨN PSU",
   "courseDuration": 4,
   "startDate": "June 6th 2018, 12:00:00 am",
   "endDate": "March 24th 2022, 12:00:00 am",
@@ -662,7 +662,7 @@
   "_id": {
     "$oid": "61a26667bd0ff612b0d86561"
   },
-  "departmentName": "VIỆN NGHIÊN CỨU ĐÀO TẠO & NGHIÊN CỨU DU LỊCH",
+  "departmentName": "VIỆN NGHIÊN CỨU ĐÀO TẠO   NGHIÊN CỨU DU LỊCH",
   "courseName": "K24 QUẢN TRỊ SỰ KIỆN",
   "courseDuration": 4,
   "startDate": "June 6th 2018, 12:00:00 am",
@@ -674,7 +674,7 @@
   "_id": {
     "$oid": "61a26680bd0ff612b0d86562"
   },
-  "departmentName": "VIỆN NGHIÊN CỨU ĐÀO TẠO & NGHIÊN CỨU DU LỊCH",
+  "departmentName": "VIỆN NGHIÊN CỨU ĐÀO TẠO   NGHIÊN CỨU DU LỊCH",
   "courseName": "K24 DU LỊCH THÔNG MINH",
   "courseDuration": 4,
   "startDate": "May 15th 2018, 12:00:00 am",
@@ -686,7 +686,7 @@
   "_id": {
     "$oid": "61a26698bd0ff612b0d86563"
   },
-  "departmentName": "VIỆN NGHIÊN CỨU ĐÀO TẠO & NGHIÊN CỨU DU LỊCH",
+  "departmentName": "VIỆN NGHIÊN CỨU ĐÀO TẠO   NGHIÊN CỨU DU LỊCH",
   "courseName": "K24 HƯỚNG DẪN DU LỊCH QUỐC TẾ (TIẾNG ANH)",
   "courseDuration": 4,
   "startDate": "June 6th 2018, 12:00:00 am",
@@ -698,7 +698,7 @@
   "_id": {
     "$oid": "61a266b1bd0ff612b0d86564"
   },
-  "departmentName": "VIỆN NGHIÊN CỨU ĐÀO TẠO & NGHIÊN CỨU DU LỊCH",
+  "departmentName": "VIỆN NGHIÊN CỨU ĐÀO TẠO   NGHIÊN CỨU DU LỊCH",
   "courseName": "K24 HƯỚNG DẪN DU LỊCH QUỐC TẾ (TIẾNG TRUNG)",
   "courseDuration": 4,
   "startDate": "June 6th 2018, 12:00:00 am",
@@ -710,7 +710,7 @@
   "_id": {
     "$oid": "61a266cdbd0ff612b0d86565"
   },
-  "departmentName": "VIỆN NGHIÊN CỨU ĐÀO TẠO & NGHIÊN CỨU DU LỊCH",
+  "departmentName": "VIỆN NGHIÊN CỨU ĐÀO TẠO   NGHIÊN CỨU DU LỊCH",
   "courseName": "K24 HƯỚNG DẪN DU LỊCH QUỐC TẾ (TIẾNG HÀN)",
   "courseDuration": 4,
   "startDate": "June 6th 2018, 12:00:00 am",

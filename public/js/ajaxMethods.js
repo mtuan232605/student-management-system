@@ -40,7 +40,7 @@ function getCourses(dept) {
     xhttp.open("GET", URL, true);
     xhttp.send();
 }
-//fake
+//Get Fee
 function getCourse(getCourseFee) {
     var URL = `http://localhost:5000/api/get-course?courseName=${getCourseFee}`;
 
@@ -49,13 +49,20 @@ function getCourse(getCourseFee) {
         if (this.readyState == 4 && this.status == 200) {
             let response = JSON.parse(xhttp.responseText);
             console.log(response);
-            document.getElementById('amountPaid').value = response.courseFee;
+            document.getElementById('tuition').value = response.courseFee;
         }
     };
 
     xhttp.open("GET", URL, true);
     xhttp.send();
 }
+//get total fee
+// function getTotalFee() {
+//     var tuitionFee = document.getElementById("tuition").value;
+//     var tuitionDiscount = document.getElementById("discount").value;
+//     var totalFee = tuitionFee - (tuitionFee * tuitionDiscount/100)
+//     document.getElementById("totalFee").value = totalFee ;
+// }
 
 function getStudentInfo(studentRollNo) {
     const URL = `http://localhost:5000/api/getStudentInfo?studentRollNo=${studentRollNo}`;
@@ -111,7 +118,7 @@ function getStudentInfo(studentRollNo) {
 //             document.getElementById('studentSection').value = student.section;
 //             document.getElementById('studentDept').value = student.department;
 //             document.getElementById('studentCourse').value = student.course;
-//             document.getElementById('amountPaid').value = courseFee;
+//             document.getElementById('tuition').value = courseFee;
 //         }
 //     };
 

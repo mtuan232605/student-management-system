@@ -35,9 +35,9 @@ const feeSchema = new mongoose.Schema({
         required: true
     },
     //
-    amountPaid: {
+    tuition: {
         type: Number,
-        required: [true, 'Paid amount is required'],
+        required: [true, 'Tuition Fee is required'],
         validate: {
             isAsync: true,
             validator: async function (val) {
@@ -53,46 +53,19 @@ const feeSchema = new mongoose.Schema({
                 message: 'Paid amount cannot be greater than the course fee'
         }
     },
-    amountDue: {
+    //
+    tuitionDiscount: {
         type: Number,
-        validate: {
-            isAsync: true,
-            validator: async function (val) {
-                    const course = await Course.findOne({
-                        courseName: this.course
-                    }).select({
-                        courseFee: 1,
-                        _id: 0
-                    });
-
-                    let pendingAmt = course.courseFee - this.amountPaid;
-
-                    return ((val && (this.amountDue == pendingAmt)) || (this.amountPaid == course.courseFee));
-                },
-                message: 'Pending amount cannot be greater or less than the remaining course fee'
-        }
+        required: true
+        
     },
-    dueDate: {
+    dateOfPayment: {
         type: String,
-        validate: {
-            validator: function (val) {
-                if (this.amountDue) {
-                    return val
-                }
-            },
-            message: 'Due date is required'
-        }
+        required: true
     },
-    lateSubmissionFine: {
+    totalFee: {
         type: Number,
-        validate: {
-            validator: function (val) {
-                if (this.dueDate) {
-                    return val
-                }
-            },
-            message: 'Late fine amount is required'
-        }
+        required: true
     },
     paymentId: {
         type: Number,
@@ -110,10 +83,10 @@ function validateFee(fee) {
         studentSection: Joi.string().required().label(' Section '),
         studentDept: Joi.string().required().label(' Course '),
         studentCourse: Joi.string().required().label(' Course '),
-        amountPaid: Joi.number().empty('').label(' Paid Amount '),
-        amountDue: Joi.number().empty('').label(' Due Amount '),
-        dueDate: Joi.string().empty('').label(' Due Date '),
-        lateFine: Joi.number().empty('').label(' Late Fine Amount '),
+        tuition: Joi.number().empty('').label(' Tuition Fee '),
+        tuitionDiscount: Joi.number().empty('').label(' Tuition Discount '),
+        dateOfPayment: Joi.string().empty('').label(' Date of payment '),
+        totalFee: Joi.number().empty('').label(' Total Fee '),
         paymentId: Joi.number().required().label(' Payment Id ')
     }
 

@@ -18,6 +18,7 @@ const studentIdSchema = new mongoose.Schema({
 const StudentId = mongoose.model('StudentId', studentIdSchema);
 
 const studentSchema = new mongoose.Schema({
+    //img
     StudentName: {
         FirstName: {
             type: String,
