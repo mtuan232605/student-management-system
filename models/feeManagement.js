@@ -5,8 +5,8 @@ const {
     Course
 } = require('../models/course');
 
-let msg = '';
-let isValid = true;
+// let msg = '';
+// let isValid = true;
 
 const feeSchema = new mongoose.Schema({
     studentRoll: {//stuID
@@ -37,21 +37,21 @@ const feeSchema = new mongoose.Schema({
     //
     tuition: {
         type: Number,
-        required: [true, 'Tuition Fee is required'],
-        validate: {
-            isAsync: true,
-            validator: async function (val) {
-                    const course = await Course.findOne({
-                        courseName: this.course
-                    }).select({
-                        courseFee: 1,
-                        _id: 0
-                    });
+        required: true,
+        // validate: {
+        //     isAsync: true,
+        //     validator: async function (val) {
+        //             const course = await Course.findOne({
+        //                 courseName: this.course
+        //             }).select({
+        //                 courseFee: 1,
+        //                 _id: 0
+        //             });
 
-                    return (val && val <= course.courseFee);
-                },
-                message: 'Paid amount cannot be greater than the course fee'
-        }
+        //             return (val && val <= course.courseFee);
+        //         },
+        //         message: 'Paid amount cannot be greater than the course fee'
+        // }
     },
     //
     tuitionDiscount: {
