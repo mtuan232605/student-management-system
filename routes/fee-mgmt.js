@@ -29,7 +29,7 @@ const {
 } = require('../helpers/auth');
 
 
-router.get('/', async (req, res) => {
+router.get('/', [ensureAuthenticated, readAccessControl || isAdmin ], async (req, res) => {
     /*const dept = await Department.find();
 
     if (dept) {
@@ -45,8 +45,9 @@ router.get('/', async (req, res) => {
         breadcrumbs: true
     })
 });
+
 //detail
-router.get('/detail',async (req, res) => {
+router.get('/detail',[ensureAuthenticated,  readAccessControl || isAdmin],async (req, res) => {
     const perPage = 7;
     const page = req.query.page || 1;
     const skip = ((perPage * page) - perPage) + 1;
@@ -84,7 +85,7 @@ router.get('/detail',async (req, res) => {
 });
 
 //pay 
-router.get('/pay', async (req, res) => {
+router.get('/pay', [ensureAuthenticated,  createAccessControl || isAdmin], async (req, res) => {
     const paymentId = randomString.generate({
         length: 16,
         charset: 'numeric'
@@ -97,7 +98,7 @@ router.get('/pay', async (req, res) => {
     });
 });
 //post add pay
-router.post('/pay', async (req, res) => {
+router.post('/pay',[ensureAuthenticated,  createAccessControl || isAdmin], async (req, res) => {
     let errors = [];
 
     const {
@@ -153,7 +154,7 @@ router.post('/pay', async (req, res) => {
     }
 });
 // Receipt Fee
-router.get('/receipt-fee', [ensureAuthenticated, isAdmin, readAccessControl], async (req, res) => {
+router.get('/receipt-fee', [ensureAuthenticated,  readAccessControl || isAdmin], async (req, res) => {
     const studentfee = await StudentFee.findOne({
         paymentId: req.query.id
     });
@@ -169,7 +170,7 @@ router.get('/receipt-fee', [ensureAuthenticated, isAdmin, readAccessControl], as
     }
 });
 // EDIT
-router.get('/edit', [ensureAuthenticated, isAdmin, updateAccessControl], async (req, res) => {
+router.get('/edit', [ensureAuthenticated, updateAccessControl || isAdmin], async (req, res) => {
     const studentfee = await StudentFee.findOne({
         paymentId: req.query.id
     });
@@ -184,7 +185,7 @@ router.get('/edit', [ensureAuthenticated, isAdmin, updateAccessControl], async (
 });
 
 //update
-router.put('/:id', [ensureAuthenticated, isAdmin, updateAccessControl], async (req, res) => {
+router.put('/:id', [ensureAuthenticated,  updateAccessControl || isAdmin], async (req, res) => {
 
     const {
         error
@@ -221,7 +222,7 @@ router.put('/:id', [ensureAuthenticated, isAdmin, updateAccessControl], async (r
 
 
 //delete
-router.delete('/:id', [ensureAuthenticated, isAdmin, deleteAccessControl], async (req, res) => {
+router.delete('/:id', [ensureAuthenticated,  deleteAccessControl || isAdmin], async (req, res) => {
     const result = await StudentFee.remove({
         paymentId: req.params.id
     });

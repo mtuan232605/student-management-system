@@ -26,7 +26,7 @@ const {
     deleteAccessControl
 } = require('../helpers/auth');
 
-router.get('/', [ensureAuthenticated, readAccessControl], async (req, res) => {
+router.get('/', [ensureAuthenticated ,readAccessControl], async (req, res) => {
 
     const perPage = 7;
     const page = req.query.page || 1;
