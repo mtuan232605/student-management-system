@@ -1,0 +1,87 @@
+<div class="container-fluid" id="container-fluid">
+    <div class="row mb-3">
+        <div class="col-md-10">
+            {{!-- <button type="button" class="btn btn-secondary custom-button" data-toggle="modal" data-target="#importCSV">
+                <i class="fa fa-file-text-o fa-lg"></i>&nbsp; Import from CSV
+            </button>
+            <button type="button" id="btnManage" class="btn btn-secondary">Manage</button>
+            <div class="btn-group" id="btnGroup" role="group" aria-label="Basic example">
+                <button type="button" id="left" class="btn btn-secondary">All</button>
+                <button type="button" id="right" class="btn btn-secondary">None</button>
+            </div>
+            <button type="button" id="btnDel" class="btn btn-danger">Delete</button> --}}
+        </div>
+        {{!-- <div class="col-md-2">
+            <div class="dropdown">
+                <button class="btn btn-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown" style="width:100%;text-align:right;">
+                    Sort By &nbsp; <i class="fa fa-sort fa-lg"></i>
+                </button>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="/attendance?sort=asc">
+                        Ascending
+                    </a>
+                    <a class="dropdown-item" href="/attendance?sort=desc">
+                        Descending
+                    </a>
+                </div>
+            </div>
+        </div> --}}
+    </div>
+
+    {{#if students}}
+    <table class="table table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Student ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Gender</th>
+                <th scope="col">Date</th>
+                <th scope="col">Checkin</th>
+                <th scope="col">Checkout</th>
+                <th scope="col">IDtag</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each students}}
+            <tr>
+                <td>{{StudentId._StudentId}}</td>
+                <td>{{StudentName.FirstName}}&nbsp;{{StudentName.LastName}}</td>
+                <td>{{Gender}}</td>
+                <td>24-Dec-2021</td>
+                <td>1:20 PM</td>
+                <td>7:20 PM</td>
+                <td>{{IDtag}}</td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+
+    {{#unless user.privileges.update}}
+    <script>
+        let updateItems = document.getElementsByClassName('edit-item'), count;
+
+        for (count = 0; count < updateItems.length; count++) {
+            updateItems[count].style.display = 'none';
+        }
+    </script>
+    {{/unless}}
+
+    {{#unless user.privileges.delete}}
+    <script>
+        let items = document.getElementsByClassName("del-item"), i;
+
+        for (i = 0; i < items.length; i++) {
+            items[i].style.display = 'none';
+        }
+    </script>
+    {{/unless}}
+
+    <br>
+
+    <ul class="pagination">
+        {{#paginate current=current pages=pages}} {{/paginate}}
+    </ul>
+    {{else}}
+    <p>No records found...</p>
+    {{/if}}
+</div>

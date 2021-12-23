@@ -26,7 +26,7 @@ const {
 } = require('../helpers/auth');
 
 // Students Home Route
-router.get('/', [ensureAuthenticated, isAdmin, readAccessControl], async (req, res) => {
+router.get('/', [ensureAuthenticated, isAdmin, readAccessControl], async (req, res) => {//    /student
 
     const perPage = 7;
     const page = req.query.page || 1;

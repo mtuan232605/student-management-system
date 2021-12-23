@@ -19,6 +19,8 @@ const courses = require('./routes/courses');
 const fees = require('./routes/fee-mgmt');
 const api = require('./routes/api');
 const uploads = require('./routes/uploads');
+const attendance = require('./routes/attendance');
+
 
 // Passport Config.
 require('./config/passport')(passport);
@@ -133,6 +135,7 @@ app.use('/courses', courses);
 app.use('/fee-management', fees);
 app.use('/api', api);
 app.use('/uploads', uploads);
+app.use('/attendance', attendance);
 
 // Listening on Port:5000
 //const port = process.env.port || 3000;
