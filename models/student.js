@@ -136,6 +136,9 @@ const studentSchema = new mongoose.Schema({
     IDtag: {
         type: String,
     },
+    absent:{
+        type: String,
+    },
     StudentId: studentIdSchema
 });
 
@@ -175,7 +178,8 @@ function validateStudent(student) {
         _StudentId: Joi.string().required(),
         Note: Joi.string().empty(''),
         _method: Joi.string().empty(''),
-        IDtag: Joi.string()
+        IDtag: Joi.string(),
+        absent: Joi.string()
     };
 
     return Joi.validate(student, schema);
